@@ -26,4 +26,7 @@ The following dependencies and packages are required to be installed on the host
 
 ## Results
 Below is a chart plotting the results of the sklearn KNN prediction. Average accuracy is the average for each K value over all 5 runs.
-![KNN K vs Average Accuracy](https://user-images.githubusercontent.com/22064340/132245682-59c2d0d7-fe71-41c4-a1cb-d36bb0efc74a.png)
+(![KNN K vs Average Accuracy](https://user-images.githubusercontent.com/22064340/132771494-4f52269f-0caa-43fe-b22c-51e73a8e6b9e.png))
+
+## Why K values have similar accuracys
+In the graph, you can see that the most of the accuracys for different K values are fairly close, with 1-17 being only .01 different. Our group came to the consensus this could be due to the fact that there are noticable differences in the size of each flower. Each flower differed in size enough that it was noticable enough that just scrolling through the dataset and solely looking at the numbers we could tell when we were looking at a different flower. Since they were all so different there would have to be a large k value for the acuraccy to show a big difference. This is why there is only a .025 difference in the accuracys for all 20 K values.
