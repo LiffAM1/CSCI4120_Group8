@@ -30,13 +30,15 @@ The following dependencies and packages are required to be installed on the host
 ## Results
 We selected the 20 features with the highest importance to build our model against. See the below graph for the features we picked alongside their importance.
 
+![image](https://user-images.githubusercontent.com/22064340/139353475-f289e0ab-eab8-4c01-a34d-f3d426752ca4.png)
+
 For the hyperparameters, we got the following values using GridSearchCV to find the best combinations of values:
 {'bootstrap': True, 'max_depth': 4, 'min_samples_split': 2, 'n_estimators': 20}
 
 Finally, for the results, we scored the training data against the target and the test data against the target, and got the following values for accuracy:
-Accuracy score, training dataset: 0.9671361502347418
-Accuracy score, test dataset: 0.9370629370629371
-Average, training dataset: 0.048356807511737085
-Average, test dataset: 0.04685314685314686
+- Accuracy score, training dataset: 0.9671361502347418
+- Accuracy score, test dataset: 0.9370629370629371
+- Average, training dataset: 0.048356807511737085
+- Average, test dataset: 0.04685314685314686
 
 As you can see, the model was slightly overfit as it performed better on the training data, but the accuracy on the test data was still pretty good.
