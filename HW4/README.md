@@ -19,6 +19,7 @@ The following dependencies and packages are required to be installed on the host
  - numpy
  - sklearn
  - matplotlib
+ - scipy
 
 ## Walkthrough
 
